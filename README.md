@@ -34,4 +34,4 @@ about + ANVE → experience → skills/education → FAQ → contact (email, Wha
 - JSON-LD carries Person + ProfessionalService (services list) + FAQPage. Keep the FAQ text in
   the HTML and the JSON-LD in sync.
 - Contact emails: hi.lokeshrm@gmail.com and lokeshrm.work@gmail.com. Four resume variants live in
-  `resumes/` (PDF + Word source); the contact section lists all four.
+  `resumes/` (PDF + Word source); the site links only the AI / ML Engineer PDF.
