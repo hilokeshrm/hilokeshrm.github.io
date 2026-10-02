@@ -33,5 +33,5 @@ about + ANVE → experience → skills/education → FAQ → contact (email, Wha
 - On phones a "Start a project / WhatsApp" bar (`#dock`) appears after the hero and hides at Contact.
 - JSON-LD carries Person + ProfessionalService (services list) + FAQPage. Keep the FAQ text in
   the HTML and the JSON-LD in sync.
-- Contact email: hi.lokeshrm@gmail.com (also fixed inside the resume PDF; original kept in
-  `../portfolio-original/resume-before-email-fix.pdf`).
+- Contact emails: hi.lokeshrm@gmail.com and lokeshrm.work@gmail.com. Four resume variants live in
+  `resumes/` (PDF + Word source); the contact section lists all four.

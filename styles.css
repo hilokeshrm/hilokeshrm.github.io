@@ -399,3 +399,5 @@ footer { border-top: 1px solid var(--line); overflow: hidden; }
   .dock.on { transform: none; }
   footer { padding-bottom: 72px; }
 }
+.contact .resumes { margin-top: 28px; }
+.contact .resumes > .meta { text-align: left; padding-bottom: 10px; border-bottom: 1px solid var(--line); font-size: 11px; }
