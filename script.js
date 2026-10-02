@@ -62,16 +62,6 @@
     doc.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in'); });
   }
 
-  /* project brief → email (no backend) */
-  var brief = doc.getElementById('brief');
-  if (brief) brief.addEventListener('submit', function (e) {
-    e.preventDefault();
-    var f = new FormData(brief), lines = [];
-    f.forEach(function (v, k) { if (v) lines.push(k + ': ' + v); });
-    var subject = 'Project brief: ' + (f.get('Type') || 'New project') + ' (' + (f.get('Name') || '') + ')';
-    location.href = 'mailto:' + brief.dataset.mailto + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(lines.join('\n\n'));
-  });
-
   /* phone hire bar: show after the hero, hide once the contact section is on screen */
   var dock = doc.getElementById('dock'), hero = doc.getElementById('top'), contact = doc.getElementById('contact');
   if (dock) {

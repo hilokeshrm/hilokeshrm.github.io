@@ -28,10 +28,8 @@ the old files, and push. Same filenames as before (`index.html`, `styles.css`, `
 ## Freelance layout (2026-10-02)
 
 Order: hero → services (6) → client work (+ student/engineer project help) → process → engineering work →
-about + ANVE → experience → skills/education → FAQ → contact + project brief form.
+about + ANVE → experience → skills/education → FAQ → contact (email, WhatsApp, links).
 
-- The brief form (`#brief`) opens the visitor's email app with the brief filled in (see `script.js`).
-  To store submissions instead, point it at Formspree / Netlify Forms.
 - On phones a "Start a project / WhatsApp" bar (`#dock`) appears after the hero and hides at Contact.
 - JSON-LD carries Person + ProfessionalService (services list) + FAQPage. Keep the FAQ text in
   the HTML and the JSON-LD in sync.
