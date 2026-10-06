@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resumes — Lokesh R M</title>
+<meta name="description" content="Resumes for Lokesh R M: AI / ML Engineer, AI Robotics Engineer, ML Research Engineer and Robotics Engineer, as PDF and Word.">
+<meta name="author" content="Lokesh R M">
+<link rel="canonical" href="https://hilokeshrm.github.io/resumes/">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,400,30;1,9..144,400,30&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<script>(function(){var d=document.documentElement;try{var t=localStorage.getItem('lrm-theme');if(t==='light'||t==='dark')d.setAttribute('data-theme',t);}catch(e){}})();</script>
+<meta name="theme-color" content="#F4F3EF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0A0A0A" media="(prefers-color-scheme: dark)">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hilokeshrm.github.io/resumes/">
+<meta property="og:title" content="Resumes — Lokesh R M">
+<meta property="og:description" content="Four resume versions for AI, ML and robotics roles, as PDF and Word.">
+<meta property="og:image" content="https://hilokeshrm.github.io/assets/og-image.png">
+<style>
+  .r-head { padding: clamp(48px, 9vh, 112px) 0 clamp(32px, 5vh, 56px); }
+  .r-head .grid { display: grid; grid-template-columns: 8fr 4fr; gap: var(--gap); align-items: end; }
+  .r-head h1 { max-width: 12ch; }
+  .r-list { border-top: 1px solid var(--line); margin-bottom: clamp(64px, 10vh, 128px); }
+  .r-row { display: grid; grid-template-columns: 56px 1fr auto; gap: 24px; align-items: center; padding: 28px 0; border-bottom: 1px solid var(--line); }
+  .r-row h2 { font-size: clamp(22px, 2.2vw, 30px); letter-spacing: -.02em; }
+  .r-row .url { display: block; margin-top: 8px; font-family: var(--mono); font-size: 12px; color: var(--ink-3); word-break: break-all; }
+  .r-row .url:hover { color: var(--ink); }
+  .r-row .btn { padding: 10px 16px; font-size: 14px; }
+  .r-row .btn-row { justify-content: flex-end; }
+  .copy[data-done] { border-color: var(--accent); color: var(--accent); }
+  .r-foot { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 24px 0 40px; border-top: 1px solid var(--line); }
+  @media (max-width: 900px) {
+    .r-head .grid { grid-template-columns: 1fr; }
+    .r-row { grid-template-columns: 1fr; gap: 14px; }
+    .r-row .btn-row { justify-content: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a href="../" class="wordmark" aria-label="Lokesh R M, home">Lokesh R M<i aria-hidden="true"></i></a>
+    <div class="nav-right">
+      <button class="theme-btn" type="button" data-theme-toggle aria-label="Toggle light or dark" title="Light / dark">
+        <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.4M12 19.1v2.4M4.6 4.6l1.7 1.7M17.7 17.7l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.6 19.4l1.7-1.7M17.7 6.3l1.7-1.7"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a6.5 6.5 0 1 0 10.5 10.5Z"/></svg>
+      </button>
+      <a href="../#contact" class="cta">Start a project</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="r-head">
+    <div class="wrap">
+      <div class="grid">
+        <div>
+          <div class="meta" style="margin-bottom:20px"><a href="../">Lokesh R M</a> · Resumes</div>
+          <h1>Pick the one that fits the <em>role.</em></h1>
+        </div>
+        <div class="side">
+          <p class="lede">Four versions of the same resume, each weighted toward a different kind of role. PDF to read, Word if you need to edit or upload it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="r-list" id="list"></div>
+    <div class="r-foot meta">
+      <span>hi.lokeshrm@gmail.com · lokeshrm.work@gmail.com</span>
+      <a href="../">← Back to portfolio</a>
+    </div>
+  </div>
+</main>
+
+<script>
+(function () {
+  var BASE = 'https://hilokeshrm.github.io/resumes/';
+  var R = [
+    ['AI / ML Engineer', 'Lokesh_R_M_AI_ML_Engineer'],
+    ['AI Robotics Engineer', 'Lokesh_R_M_AI_Robotics_Engineer'],
+    ['ML Research Engineer', 'Lokesh_R_M_ML_Research_Engineer'],
+    ['Robotics Engineer', 'Lokesh_R_M_Robotics_Engineer']
+  ];
+  var list = document.getElementById('list');
+  list.innerHTML = R.map(function (r, i) {
+    var pdf = r[1] + '.pdf', url = BASE + pdf;
+    return '<div class="r-row">' +
+      '<span class="meta">0' + (i + 1) + '</span>' +
+      '<div><h2>' + r[0] + '</h2><a class="url" href="' + pdf + '" target="_blank" rel="noopener">' + url + '</a></div>' +
+      '<div class="btn-row">' +
+        '<a class="btn" href="' + pdf + '" target="_blank" rel="noopener">View PDF <span class="arrow">↗</span></a>' +
+        '<a class="btn ghost" href="' + r[1] + '.docx" download>Word ↓</a>' +
+        '<button class="btn ghost copy" type="button" data-url="' + url + '">Copy link</button>' +
+      '</div></div>';
+  }).join('');
+
+  list.addEventListener('click', function (e) {
+    var b = e.target.closest('.copy');
+    if (!b) return;
+    var done = function () { b.textContent = 'Copied'; b.setAttribute('data-done', ''); setTimeout(function () { b.textContent = 'Copy link'; b.removeAttribute('data-done'); }, 1600); };
+    if (navigator.clipboard) navigator.clipboard.writeText(b.dataset.url).then(done, function () { window.prompt('Copy this link:', b.dataset.url); });
+    else window.prompt('Copy this link:', b.dataset.url);
+  });
+
+  var root = document.documentElement;
+  document.querySelectorAll('[data-theme-toggle]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var cur = root.getAttribute('data-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      var next = cur === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('lrm-theme', next); } catch (e) {}
+    });
+  });
+})();
+</script>
+</body>
+</html>
